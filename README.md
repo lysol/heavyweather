@@ -20,7 +20,7 @@ The files, in order of operations, sorta
 ~~~
     bar {
             #status_command i3status
-            status_command exec ~/bin/net-speed.sh
+            status_command exec ~/bin/i3weatherbar.sh
     }
 ~~~
 * `setweather.sh`: fetches and saves current weather conditions, so as to not hammer dark sky
